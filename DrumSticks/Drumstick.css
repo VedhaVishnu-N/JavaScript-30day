@@ -1,0 +1,29 @@
+body{
+    background-image: url('image_bg.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.A{
+    border: 3px solid white;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.4);
+    transition: all 0.01s;
+}
+.heading{
+    color: white;
+}
+.desc{
+    color: yellow;
+}
+.object{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 300px;
+}
+.A:active{
+    transform: scale(1.1);
+    border: 5px solid yellow;
+}
