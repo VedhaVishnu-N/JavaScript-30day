@@ -10,7 +10,7 @@ body{
     height: 80px;
     text-align: center;
     background:rgba(0, 0, 0, 0.4);
-    transition: all 0.01s;
+    transition: all 0.07s;
 }
 .heading{
     color: white;
@@ -23,7 +23,10 @@ body{
     justify-content: space-evenly;
     margin-top: 300px;
 }
-.A:active{
+.playing{
     transform: scale(1.1);
     border: 5px solid yellow;
+}
+kbd{
+    color: white;
 }
