@@ -1,0 +1,18 @@
+html{
+    background-image: url('/Clock/clockbg.webp');
+    background-size: cover;
+}
+.hand{
+    height:80px;
+    width: 8px;
+    background: black;
+    position: absolute;
+}
+.clock{
+    width: 150px;
+    height: 150px;
+    border: 12px solid black;
+    border-radius: 50%;
+    position: relative;
+    padding: 2rem;
+}
